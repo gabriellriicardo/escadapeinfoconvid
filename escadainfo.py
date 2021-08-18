@@ -89,3 +89,5 @@ sair = input ("\n\n\nPRESSIONE ENTER PARA SAIR: ")
 print("SAINDO...")
 time.sleep(2)
 nav.quit()
+
+#By Gabriel Ricardo
