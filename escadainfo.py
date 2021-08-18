@@ -42,7 +42,7 @@ dosia = nav.find_element_by_xpath('/html/body/div/div/div/div[2]/div[2]/div/div/
 atda = nav.find_element_by_xpath('/html/body/div/div/div/div[2]/div[2]/div/div/div/div[2]/div/small')
 dosesa = dosia.text
 atda1 = atda.text
-print ("\nPESSOAS QUE RECEBERAM A 2º DOSE: ({}) ----------- {} ".format(dosesa, atda1))
+print ("\nPESSOAS QUE RECEBERAM A 2º DOSE: ({}) ------------ {} ".format(dosesa, atda1))
 
 #1º DOSE APLICADA E ATUALIZAÇÕES
 dosia1 = nav.find_element_by_xpath('/html/body/div/div/div/div[2]/div[3]/div/div/div/div[1]/div[2]/h2')
