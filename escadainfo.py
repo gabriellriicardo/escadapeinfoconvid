@@ -1,4 +1,4 @@
-from selenium import webdriver
+﻿from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
@@ -89,5 +89,3 @@ sair = input ("\n\n\nPRESSIONE ENTER PARA SAIR: ")
 print("SAINDO...")
 time.sleep(2)
 nav.quit()
-
-#By Gabriel Ricardo
